@@ -1,0 +1,48 @@
+#map {
+    float: left;
+    height: 90vh;
+    width: 75vw;
+    margin: 0 0 0 10px;
+}
+
+#data {
+    float: left;
+    width: 23vw;
+}
+
+#nav-bar {
+    background-color: #2F195F;
+    padding: 10px;
+    color: white;
+}
+
+#description {
+    /*margin: 20px 20px;*/
+    padding: 20px;
+    background-color: #eee;
+    font-size: 20px;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+#logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+}
+
+.logo {
+    /*margin: 5%;*/
+    width: 120px;
+    height: 110px;
+}
+
+#github-logo {
+    /*margin-left: 20%;*/
+    width: 250px ;
+}
+

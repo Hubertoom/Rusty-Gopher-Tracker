@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Where is ISS?</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<div id="nav-bar">
+    <h1>Where the Rusty Gopher at?</h1>
+</div>
+<div id="description">
+    <p>
+        There is no space! NASA lies! Look at this map, it is flat, isn't it? <br/>
+        If there is no space, the ISS(International Space Station) cannot exist either!  <br>
+        So, what kind of data does NASA share with us? This is the position of the Rusty Gopher! <br>
+        The Rusty Gopher exists and roams the sky above us, check it, maybe it's hoovering above you now!
+    </p>
+</div>
+<div id="map"></div>
+
+<div id="data">
+    <table class="table table-striped">
+        <thead>
+        </thead>
+        <tbody>
+        <tr></tr>
+        <tr>
+            <td>Altitude</td>
+            <td id="altitude"></td>
+        </tr>
+        <tr>
+            <td>Velocity</td>
+            <td id="velocity"></td>
+        </tr>
+        <tr>
+            <td>Longitude</td>
+            <td id="longitude"></td>
+        </tr>
+        <tr>
+            <td>Latitude</td>
+            <td id="latitude"></td>
+        </tr>
+        </tbody>
+    </table>
+    <br/>
+    <div id="logo-container">
+        <div>
+            <img class="logo" src="img/javascript.png" alt="javascript image">
+            <img class="logo" src="img/vscode.png" alt="javascript image">
+            <h4>(っ◔◡◔)っ ♥ Created with ♥</h4>
+        </div>
+        <br/>
+        <div>
+            <h4>Visit:</h4>
+            <a href="https://github.com/Hubertoom">
+                <img id="github-logo" src="img/github.png" alt="javascript image">
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
